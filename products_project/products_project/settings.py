@@ -72,7 +72,9 @@ WSGI_APPLICATION = 'products_project.wsgi.application'
 
 
 
-
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
 
 
 # Password validation
